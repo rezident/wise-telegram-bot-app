@@ -1,0 +1,14 @@
+{
+    "require": {
+        "php": "^8.0",
+        "rezident/wise-telegram-bot": "dev-master"
+    },
+    "autoload": {
+        "psr-4": {
+            "BotApp\\": "src"
+        }
+    },
+    "scripts": {
+        "post-create-project-cmd": "chmod +x run.php"
+    }
+}
